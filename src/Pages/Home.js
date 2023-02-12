@@ -7,7 +7,7 @@ import Footer from './../components/Footer';
 const Home = () => {
 	const [loading, setLoading] = useState(true);
 	const [movie, setMovie] = useState({});
-	const [searchText, setSearchText] = useState('The Avenger');
+	const [searchText, setSearchText] = useState('Rab Ne Bana Di Jodi');
 
 	useEffect(() => {
 		const fetchMovie = async () => {
